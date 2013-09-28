@@ -3,10 +3,9 @@
 
     <string name="app_name">Discount Calculator</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
     <string name="price">Original Price</string>
     <string name="discount_percentage">Discount %</string>
     <string name="you_pay">You will pay</string>
-    <string name="result">None…yet</string>
+    <string name="result">--</string>
 
 </resources>
