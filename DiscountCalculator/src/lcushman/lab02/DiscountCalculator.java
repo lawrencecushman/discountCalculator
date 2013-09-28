@@ -18,5 +18,7 @@ public class DiscountCalculator extends Activity {
 		getMenuInflater().inflate(R.menu.discount_calculator, menu);
 		return true;
 	}
-
+	
+	
+	
 }

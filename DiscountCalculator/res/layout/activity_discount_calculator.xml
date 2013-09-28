@@ -8,9 +8,61 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".DiscountCalculator" >
 
-    <TextView
+    <EditText
+        android:id="@+id/price_decimalField"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+    
+    <EditText
+        android:id="@+id/discount_decimalFIeld"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/price_decimalField"
+        android:layout_below="@+id/price_decimalField"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/price_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/price_decimalField"
+        android:layout_alignLeft="@+id/price_decimalField"
+        android:layout_marginBottom="38dp"
+        android:text="@string/price" />
+
+    <TextView
+        android:id="@+id/discount_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/discount_decimalFIeld"
+        android:layout_alignLeft="@+id/discount_decimalFIeld"
+        android:layout_marginBottom="38dp"
+        android:text="@string/discount_percentage" />
+
+    <TextView
+        android:id="@+id/youPay_textField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/discount_decimalFIeld"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:text="@string/you_pay" />
+
+    <TextView
+        android:id="@+id/result_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/youPay_textField"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="@string/result"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>
