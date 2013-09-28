@@ -19,7 +19,7 @@
         android:inputType="numberDecimal" />
     
     <EditText
-        android:id="@+id/discount_decimalFIeld"
+        android:id="@+id/discount_decimalField"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/price_decimalField"
@@ -41,8 +41,8 @@
         android:id="@+id/discount_textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/discount_decimalFIeld"
-        android:layout_alignLeft="@+id/discount_decimalFIeld"
+        android:layout_alignBottom="@+id/discount_decimalField"
+        android:layout_alignLeft="@+id/discount_decimalField"
         android:layout_marginBottom="38dp"
         android:text="@string/discount_percentage" />
 
@@ -50,7 +50,7 @@
         android:id="@+id/youPay_textField"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/discount_decimalFIeld"
+        android:layout_below="@+id/discount_decimalField"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="51dp"
         android:text="@string/you_pay" />
